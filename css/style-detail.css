@@ -186,6 +186,20 @@ body{
     color:#fff;
 }
 
+.footer{
+    background-color: #333;
+    
+    margin-top: 2rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: #ddd;
+}
+
+
 @media (max-width:1275px) {
     .main-action {
         display: block;

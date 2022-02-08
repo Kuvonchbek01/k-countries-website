@@ -24,6 +24,7 @@ body{
     line-height: 1.6rem;
     margin: 0;
     padding: 0;
+    background: #F2F2F2;
 }
 
 .container{
@@ -81,7 +82,7 @@ body{
 }
 
 .main-content {
-    background: #F2F2F2;
+   
     padding-top: 12rem;
 }
 
@@ -177,6 +178,19 @@ body{
 
 .card-text span{
     font-weight: 300;
+}
+
+.footer{
+    background-color: #333;
+    
+    margin-top: 2rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: #ddd;
 }
 
 
