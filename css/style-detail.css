@@ -9,8 +9,7 @@
 }
 
 *:focus{
-    outline: 2px dashed rgb(4, 0, 255);
-    outline-offset: 3px;
+    outline: none;
 }
 
 
