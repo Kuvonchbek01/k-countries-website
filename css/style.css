@@ -1,5 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;800&display=swap');
 
+
+:root{
+    --primary-color: #fff;
+    --bg-color: #f2f2f2;
+    --primary-black: #000;
+    --secondary-black: #111517;
+    --footer-light-bg: #333;
+    --footer-light-txt: #ddd;
+    --header-bg: #fff;
+}
+
+.dark-mode{
+    --bg-color: #202C36;
+    --header-bg: #2B3844;
+    --secondary-black: #f2f2f2; 
+}
+
+
+:root{
+    --text:#111517;
+    --bg-cards: #fff;
+    --bg-color: #f2f2f2;
+}
+.dark-mode{
+    --text: #fff;
+    --bg-cards: #2B3844;
+    --bg-color: #202C36;
+}
+
+
 *,
 *::after,
 *::before{
@@ -23,7 +53,7 @@ body{
     line-height: 1.6rem;
     margin: 0;
     padding: 0;
-    background: #F2F2F2;
+    background: var(--bg-color);
 }
 
 .container{
@@ -39,7 +69,7 @@ body{
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.0562443);
     position: fixed;
     width: 100%;
-    background-color: #fff;
+    background-color: var(--header-bg);
 }
 
 .site-header-wrapper {
@@ -52,7 +82,7 @@ body{
     font-weight: 800;
     font-size: 2.4rem;
     line-height: 3.3rem;
-    color: #111517;
+    color: var(--secondary-black);
 }
 .site-header-right {
     display: flex;
@@ -73,11 +103,11 @@ body{
     font-weight: 600;
     font-size: 1.6rem;
     line-height: 2.182rem;
-    color: #111517;
+    color: var(--secondary-black);
 }
 
 .site-header-text:hover{
-    color: #000;
+    color: var(--primary-black);
 }
 
 .main-content {
@@ -115,7 +145,7 @@ body{
 }
 
 .main-top-select:hover{
-    background-color: #f2f2f2;
+    background-color: var(--bg-color);
 }
 
 .main-top-option:hover{
@@ -133,7 +163,7 @@ body{
 }
 .card {
     display: inline-block;
-    background-color: #fff;
+    background-color: var(--header-bg);
     margin-bottom: 7rem;
     box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.0294384);
     margin-right: auto;
@@ -141,7 +171,7 @@ body{
 }
 
 .card:hover{
-    background-color: #F2F2F2;
+    background-color: var(--bg-color);
 }
 
 .card-action{
@@ -160,14 +190,14 @@ body{
     font-weight: 800;
     font-size: 1.8rem;
     line-height: 2.6rem;
-    color:#111517;
+    color:var(--secondary-black);
     margin-bottom: 1.6rem;
 }
 .card-text {
     font-weight: 600;
     font-size: 1.4rem;
     line-height: 1.6rem;
-    color: #111517;
+    color: var(--secondary-black);
 }
 
 .card-text:not(:last-child){
@@ -180,7 +210,7 @@ body{
 }
 
 .footer{
-    background-color: #333;
+    background-color: var(--footer-light-bg);
     
     margin-top: 2rem;
     padding: 1rem;
@@ -189,7 +219,7 @@ body{
 
 .footer-link{
     text-decoration: none;
-    color: #ddd;
+    color: var(--footer-light-txt);
 }
 
 
